@@ -1,0 +1,68 @@
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.search-wrapper {
+  position: relative;
+  margin-top: 50px;
+}
+
+.form-control {
+  padding : 10px;
+  font-size: 18px;
+  width: 500px;
+  outline: none;
+  border: 1px solid #E1E1E1;
+}
+
+.form-control:focus{
+  border-color: #80bdff;
+}
+
+.search-btn {
+  width : 50px;
+  height: 100%;
+  right: 0;
+  color: white;
+  background-color: #80C063;
+  border: none;
+  position: absolute;
+  line-height: normal;
+}
+
+.name {
+  font-weight: 500;
+  margin : 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.result-item img {
+  flex-shrink: 0;
+  width: 100px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.result-item .book-info {
+  margin-left: 10px;
+  text-align: left;
+}
